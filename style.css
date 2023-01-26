@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(19, 19, 19);
+}
+
+.bloco1{
+    display: block;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    padding-top: 30px;
+    box-shadow: 1px 5px 1px 1px lightgray
+}
+
+.bloco2{
+    background-color: lightgray;
+    width: 350px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.514)
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    align-content: center;
+    margin-left: px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.flex-container > input{
+    width: 100px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.377);
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+input:active{
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+
+
